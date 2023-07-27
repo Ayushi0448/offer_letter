@@ -1,0 +1,133 @@
+@import url(https: //fonts.googleapis.com/css2?family=Abril+Fatface&family=Open+Sans&family=Poppins: wght@300;
+400;
+500;
+600;
+700;
+800&display=swap);
+h1 {
+    font-size: 30px;
+}
+
+* {
+    box-sizing: border-box;
+    font-family: Arial, Helvetica, sans-serif;
+    margin: 0;
+    padding: 0;
+}
+
+.container {
+    display: flex;
+    background-color: rgba(11, 41, 80, 0.448);
+    justify-content: center;
+    align-items: center;
+    width: 100vw;
+    height: 100vh;
+}
+
+.letter {
+    display: flex;
+    background-color: #fff;
+    justify-content: center;
+    padding: 30px 20px;
+    width: 40vw;
+    height: 102vh;
+    flex-direction: column;
+    gap: 20px;
+}
+
+.top-section {
+    display: flex;
+    font-size: 14px;
+    width: 100%;
+    flex-direction: column;
+    gap: 20px;
+}
+
+.top-section-1 {
+    display: flex;
+    justify-content: space-between;
+}
+
+.top-section-1 h1 {
+    color: rgb(86, 86, 227);
+    padding-top: 40px;
+    padding-top: 20px;
+    padding-left: 10px;
+}
+
+.top-section-1 p {
+    padding-left: 10px;
+}
+
+.top-section-1 .right img {
+    width: 120px;
+}
+
+.top-section-1 .right {
+    padding-top: 20px;
+}
+
+.top-section-2 {
+    display: flex;
+    position: relative;
+    font-size: smaller;
+    justify-content: space-between;
+}
+
+.top-section-2 h1 {
+    font-weight: bold;
+    color: rgb(86, 86, 227);
+    line-height: 1.6;
+    padding: 0 20px;
+    border-bottom: 1px solid rgb(86, 86, 227);
+}
+
+.top-section-2 h2 {
+    font-size: 23.3333px;
+    font-weight: bold;
+    color: black;
+    line-height: 1.6;
+    padding: 0 20px;
+    border-bottom: 1px solid rgb(86, 86, 227);
+}
+
+.top-section-2 hr {
+    position: absolute;
+    bottom: 0;
+    border-bottom: 2px solid rgb(116, 116, 243);
+    border-radius: 10%;
+    width: 30px;
+    height: 1px;
+}
+
+.middle-section {
+    text-align: justify;
+    padding-right: 20px;
+    padding-left: 20px;
+    text-justify: inter-word;
+}
+
+.bottom-section {
+    display: flex;
+    justify-content: space-between;
+}
+
+.bottom-section .left img {
+    width: 100px;
+}
+
+.bottom-section .left {
+    padding-top: 20px;
+}
+
+.bottom-section .left {
+    padding-left: 30px;
+}
+
+.bottom-section .right img {
+    width: 100px;
+}
+
+.bottom-section .right {
+    padding-right: 30px;
+}
